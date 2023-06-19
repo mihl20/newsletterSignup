@@ -1,55 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <div id="container">
-      <section>
-        <h1>Stay Updated!</h1>
-        <p>Join 60,000+ product managers receiving monthly updates on:</p>
-        <div>
-          <img
-            src="C:\Users\michael\Documents\Code\Newsletter\newsletterSignup\images\icon-list.svg"
-            alt="tick"
-          />
-          <p>Product discovery and building what matters</p>
-        </div>
-        <div>
-          <img
-            src="C:\Users\michael\Documents\Code\Newsletter\newsletterSignup\images\icon-list.svg"
-            alt="tick"
-          />
-          <p>Measuring to ensure updates are a success</p>
-        </div>
-        <div>
-          <img
-            src="C:\Users\michael\Documents\Code\Newsletter\newsletterSignup\images\icon-list.svg"
-            alt="tick"
-          />
-          <p>And much more!</p>
-        </div>
-        <form action="#">
-          <label for="mainEmail">Email Address</label><br />
-          <input
-            type="email"
-            placeholder="email@company.com"
-            name="mainEmail"
-            id="mainEmail"
-          />
-          <br />
-          <input type="button" value="Subscribe to monthly newsletter" />
-        </form>
-      </section>
-      <section id="secondSection">
-        <img
-          src="C:\Users\michael\Documents\Code\Newsletter\newsletterSignup\images\illustration-sign-up-desktop.svg"
-          alt="Signup image"
-        />
-      </section>
-    </div>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="container">
+    <section id="firstSection">
+      <h1 id="main-header">Stay Updated!</h1>
+      <p id="first-content">Join 60,000+ product managers receiving monthly updates on:</p>
+      <div class="align-divs">
+        <img src="C:\Users\mihl\OneDrive\Documents\Projects\newsletter signup\images\icon-list.svg" alt="tick"
+          class="sort-align img-spacing" />
+        <p class="sort-align">Product discovery and building what matters</p>
+      </div><br />
+      <div class="align-divs">
+        <img src="C:\Users\mihl\OneDrive\Documents\Projects\newsletter signup\images\icon-list.svg" alt="tick"
+          class="sort-align img-spacing" />
+        <p class="sort-align">Measuring to ensure updates are a success</p>
+      </div><br />
+      <div class="align-divs">
+        <img src="C:\Users\mihl\OneDrive\Documents\Projects\newsletter signup\images\icon-list.svg" alt="tick"
+          class="sort-align img-spacing" />
+        <p class="sort-align">And much more!</p>
+      </div><br />
+      <form action="#">
+        <label for="mainEmail" id="emailLabel">Email Address</label><br />
+        <input type="email" placeholder="email@company.com" name="mainEmail" id="mainEmail" />
+        <br />
+        <input type="button" value="Subscribe to monthly newsletter" id="subscribeButton" />
+      </form>
+    </section>
+    <section id="secondSection">
+      <img src="C:\Users\mihl\OneDrive\Documents\Projects\newsletter signup\images\illustration-sign-up-desktop.svg"
+        alt="Signup image" />
+    </section>
+  </div>
+</body>
+
 </html>

@@ -1,19 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     font-size: 16px;
+    font-family: 'Roboto', sans-serif;
 }
 
 #container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    max-width: 800px;
+    max-width: 750px;
     align-items: center;
     margin: 100px auto;
     border: 1px solid black;
     border-radius: 15px;
-    padding: 25px;
+    padding: 15px;
 }
 
-#secondSection img{
+#main-header {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+#first-content {
+    padding: 20px 0px;
+}
+
+#firstSection {
+    padding: 0 20px 0 20px;
+}
+
+#secondSection img {
     height: 500px;
+}
+
+.sort-align {
+    display: inline;
+}
+
+.align-divs {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.img-spacing {
+    padding-right: 10px;
+}
+
+#emailLabel {
+    display: inline-block;
+    padding-top: 20px;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+#mainEmail {
+    padding: 15px 170px 15px 10px;
+    margin: 5px 0px 15px 0px;
+}
+
+#subscribeButton {
+    text-align: center;
+    padding: 15px 80px;
+    color: white;
+    background-color: hsl(234, 29%, 20%);
+    border-radius: 5px;
 }
